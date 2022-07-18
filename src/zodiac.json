@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Virgo",
+    "startDate": "24-Agustus",
+    "endDate": "23-September",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-virgo.jpg"
+  },
+  {
+    "name": "Libra",
+    "startDate": "24-September",
+    "endDate": "23-Oktober",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-libra.jpg"
+  },
+  {
+    "name": "Scorpio",
+    "startDate": "24-Oktober",
+    "endDate": "22-November",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-Scropio.jpg"
+  },
+  {
+    "name": "Sagittarius",
+    "startDate": "24-November",
+    "endDate": "21-Desember",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-Sagitarius.jpg"
+  },
+  {
+    "name": "Capricorn",
+    "startDate": "22-Desember",
+    "endDate": "20-Januari",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-capricornus.jpg"
+  },
+  {
+    "name": "Aquarius",
+    "startDate": "21-Januari",
+    "endDate": "19-Februari",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-aquarius.jpg"
+  },
+  {
+    "name": "Pisces",
+    "startDate": "20-Februari",
+    "endDate": "20-Maret",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-pisces.jpg"
+  },
+  {
+    "name": "Aries",
+    "startDate": "21-Maret",
+    "endDate": "20-April",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-Aries.jpg"
+  },
+  {
+    "name": "Taurus",
+    "startDate": "21-April",
+    "endDate": "21-Mei",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-taurus.jpg"
+  },
+  {
+    "name": "Gemini",
+    "startDate": "22-Mei",
+    "endDate": "21-Juni",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-gemini.jpg"
+  },
+  {
+    "name": "Cancer",
+    "startDate": "22-Juni",
+    "endDate": "23-Juli",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-cancer.jpg"
+  },
+  {
+    "name": "Leo",
+    "startDate": "24-Juli",
+    "endDate": "23-Agustus",
+    "image": "https://www.fajarpendidikan.co.id/wp-content/uploads/2022/07/Ramalan-Zodiak-leo.jpg"
+  }
+]

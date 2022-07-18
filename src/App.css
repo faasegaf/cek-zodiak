@@ -7,14 +7,19 @@
 
 .login-title {
   margin-bottom: 30px;
+  color: white;
 }
-
+.form-title {
+  color: white;
+}
 .container {
   display: grid;
 }
 
 .login-border {
   border-style: solid;
+  background-color: #1c2531;
+  border-color: #ebeef1;
   border-width: 1px;
   border-radius: 30px;
   width: 80vh;

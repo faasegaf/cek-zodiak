@@ -3,6 +3,8 @@ import { Button, Form } from "react-bootstrap";
 import { useState } from "react";
 import swal from "sweetalert";
 
+import Bg from "./Bg.jpg";
+
 const zodiacList = require("./zodiac.json");
 const monthList = require("./month.json");
 
@@ -34,42 +36,49 @@ function App() {
 
     swal({
       title: `Hallo ${nama}`,
-      text: `Usia anda saat ini adalah ${age} \n Bintang anda adalah ${zodiac.name}`,
+      text: `Usia anda saat ini adalah ${age} tahun \n Bintang anda adalah ${zodiac.name}`,
       icon: "success",
     });
   };
 
   return (
-    <div className="container">
-      <div className="login-body">
-        <div className="login-border">
-          <div className="login-wrap">
-            <div className="login-title text-center">
-              <h2>Zodiak</h2>
+    <div
+      style={{
+        backgroundImage: `url(${Bg})`,
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="container">
+        <div className="login-body">
+          <div className="login-border">
+            <div className="login-wrap">
+              <div className="login-title text-center">
+                <h2>Zodiac</h2>
+              </div>
+              <Form className="bordered hover form-title">
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Label>Nama</Form.Label>
+                  <Form.Control
+                    type="text"
+                    value={nama}
+                    onChange={(e) => setNama(e.target.value)}
+                  />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                  <Form.Label>Tanggal Lahir</Form.Label>
+                  <Form.Control
+                    type="date"
+                    value={tanggal}
+                    onChange={(e) => setTanggal(e.target.value)}
+                  />
+                </Form.Group>
+
+                <Button variant="primary" onClick={handleSubmit}>
+                  Submit
+                </Button>
+              </Form>
             </div>
-            <Form className="bordered hover">
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Nama</Form.Label>
-                <Form.Control
-                  type="text"
-                  value={nama}
-                  onChange={(e) => setNama(e.target.value)}
-                />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Tanggal Lahir</Form.Label>
-                <Form.Control
-                  type="date"
-                  value={tanggal}
-                  onChange={(e) => setTanggal(e.target.value)}
-                />
-              </Form.Group>
-
-              <Button variant="primary" onClick={handleSubmit}>
-                Submit
-              </Button>
-            </Form>
           </div>
         </div>
       </div>

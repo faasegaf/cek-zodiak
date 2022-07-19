@@ -1,8 +1,9 @@
 .login-body {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100vh;
+  width: auto;
 }
 
 .login-title {
@@ -17,20 +18,9 @@
 }
 
 .login-border {
-  border-style: solid;
+  padding: 2vw 3vw;
   background-color: #1c2531;
   border-color: #ebeef1;
-  border-width: 1px;
-  border-radius: 30px;
-  width: 80vh;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-wrap {
-  width: 60vh;
 }
 
 .login-forgot {

@@ -48,37 +48,35 @@ function App() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="container">
-        <div className="login-body">
-          <div className="login-border">
-            <div className="login-wrap">
-              <div className="login-title text-center">
-                <h2>Zodiac</h2>
-              </div>
-              <Form className="bordered hover form-title">
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                  <Form.Label>Nama</Form.Label>
-                  <Form.Control
-                    type="text"
-                    value={nama}
-                    onChange={(e) => setNama(e.target.value)}
-                  />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                  <Form.Label>Tanggal Lahir</Form.Label>
-                  <Form.Control
-                    type="date"
-                    value={tanggal}
-                    onChange={(e) => setTanggal(e.target.value)}
-                  />
-                </Form.Group>
-
-                <Button variant="primary" onClick={handleSubmit}>
-                  Submit
-                </Button>
-              </Form>
+      <div className="login-body">
+        <div className="border rounded login-border d-flex flex-wrap justify-content-center">
+          <div>
+            <div className="login-title text-center">
+              <h2>Zodiac</h2>
             </div>
+            <Form className="form-title">
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Nama</Form.Label>
+                <Form.Control
+                  type="text"
+                  value={nama}
+                  onChange={(e) => setNama(e.target.value)}
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Tanggal Lahir</Form.Label>
+                <Form.Control
+                  type="date"
+                  value={tanggal}
+                  onChange={(e) => setTanggal(e.target.value)}
+                />
+              </Form.Group>
+
+              <Button variant="primary" onClick={handleSubmit}>
+                Submit
+              </Button>
+            </Form>
           </div>
         </div>
       </div>
